@@ -19,7 +19,7 @@ export class Nav extends Component {
         return (
             <nav className="navbar">
                 <ul>
-                    <li className="brand"><a href="/">Clickity-Click-Click</a></li>
+                    <li className="brand">Clickity-Click-Click</li>
                     <li className={className}>{navMessage}</li>
                     <li>Clicks: {this.props.currentClicks} | Clicks to Beat: {this.props.highClicks}</li>
                 </ul>
