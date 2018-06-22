@@ -59,6 +59,7 @@ export class App extends Component {
       
       this.setState({ 
         result: 1,
+        highClicks: (this.state.currentClicks + 1 > this.state.highClicks) ? this.state.currentClicks + 1 : this.state.highClicks,
         currentClicks: this.state.currentClicks + 1,
         cards: cards,
         unClickedCards: newCards

@@ -1,5 +1,9 @@
 [
     {
+        "id": "0",
+        "image": "https://placeimg.com/200/200/animals/sepia"
+    },
+    {
         "id": "1",
         "image": "https://placeimg.com/200/200/people"
     },
@@ -42,21 +46,5 @@
     {
         "id": "11",
         "image": "https://placeimg.com/200/200/people/sepia"
-    },
-    {
-        "id": "12",
-        "image": "https://placeimg.com/200/200/arch/sepia"
-    },
-    {
-        "id": "13",
-        "image": "https://placeimg.com/200/200/arch/grayscale"
-    },
-    {
-        "id": "14",
-        "image": "https://placeimg.com/200/200/animals/grayscale"
-    },
-    {
-        "id": "15",
-        "image": "https://placeimg.com/200/200/animals/sepia"
     }
 ]
