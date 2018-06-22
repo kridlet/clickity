@@ -19,7 +19,7 @@ export class Nav extends Component {
         return (
             <nav className="navbar">
                 <ul>
-                    <li className="brand"><a href="/index.html">Clickity-Click-Click</a></li>
+                    <li className="brand"><a href="https://kridlet.github.io/clickity/index.html">Clickity-Click-Click</a></li>
                     <li className={className}>{navMessage}</li>
                     <li>Clicks: {this.props.currentClicks} | Clicks to Beat: {this.props.highClicks}</li>
                 </ul>
